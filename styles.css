@@ -18,3 +18,21 @@
 
 .police-mark{background:#fff;overflow:hidden;padding:3px}
 .police-mark img{display:block;width:100%;height:100%;object-fit:contain}
+
+/* High-visibility police identity banner on the homepage */
+.police-masthead{min-height:126px;padding:18px clamp(22px,7vw,110px);background:linear-gradient(110deg,#07172d 0%,#0d3157 72%,#15466f 100%);border-bottom:4px solid #e3b64d;color:#fff;gap:26px}
+.police-identity{gap:20px;flex:1;min-width:0}
+.police-mark{width:86px;height:86px;min-width:86px;border-radius:50%;padding:7px;border:2px solid #e5c36d;background:#fff;box-shadow:0 5px 24px #0005}
+.police-mark img{width:100%;height:100%;object-fit:contain}
+.police-title-wrap strong{display:block;color:#fff;font:800 clamp(19px,2.1vw,28px)/1.15 Manrope;letter-spacing:.045em}
+.police-title-wrap small{display:block;color:#d1deec;font-size:11px;font-weight:700;letter-spacing:.14em;margin-top:7px}
+.police-title-wrap em{display:inline-block;margin-top:9px;padding:5px 9px;border:1px solid #83dce4;color:#8ce7ed;border-radius:4px;font-style:normal;font-size:9px;font-weight:800;letter-spacing:.14em}
+.police-quicklinks{gap:10px;justify-content:flex-end}
+.police-quicklinks>a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:62px;padding:10px 15px;border:1px solid #5e7896;border-radius:9px;color:#e7f1fb;font-size:10px;text-align:center}
+.police-quicklinks .cyber-hotline{background:#d92d35;border:2px solid #ffb5a8;color:#fff;min-width:155px;box-shadow:0 6px 20px #0003}
+.police-quicklinks .cyber-hotline span,.police-emergency span{font-size:8px;font-weight:800;letter-spacing:.09em}
+.police-quicklinks .cyber-hotline strong{font:800 28px Manrope;line-height:1}
+.police-quicklinks .police-emergency strong{font:800 22px Manrope;color:#fff}
+.police-prototype-note{background:#fff7df;color:#775414;text-align:center;padding:7px 12px;font-size:9px;font-weight:800;letter-spacing:.06em;border-bottom:1px solid #f1dfae}
+@media(max-width:900px){.police-masthead{padding:16px 5%;gap:16px}.police-mark{width:70px;height:70px;min-width:70px}.police-quicklinks>a{padding:9px 11px}}
+@media(max-width:650px){.police-masthead{padding:16px 6%;align-items:flex-start;flex-direction:column;gap:14px}.police-identity{gap:13px}.police-mark{width:62px;height:62px;min-width:62px;padding:5px}.police-title-wrap strong{font-size:18px}.police-title-wrap small{font-size:9px;letter-spacing:.08em}.police-title-wrap em{font-size:8px}.police-quicklinks{width:100%;display:grid;grid-template-columns:1fr 1fr}.police-quicklinks>a{min-height:65px}.police-quicklinks .cyber-hotline{grid-column:1/-1;flex-direction:row;justify-content:space-between}.police-quicklinks .cyber-hotline strong{font-size:25px}.police-prototype-note{font-size:8px;line-height:1.5;padding:7px 9px}}
