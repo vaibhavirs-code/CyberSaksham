@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cyber Saksham - public cybercrime awareness and digital safety guidance." />
+  <title>Cyber Saksham | Digital Safety & Awareness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="notice"><span class="notice-dot"></span> Public awareness initiative · Always verify information through official channels</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Cyber Saksham home">
+      <span class="brand-mark">盾</span>
+      <span><strong>CYBER <em>SAKSHAM</em></strong><small>Digital Safety & Awareness</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#threats">Know the Threats</a>
+      <a href="#safety">Stay Safe</a>
+      <a href="#quiz">Test Yourself</a>
+      <a href="#help">Get Help</a>
+      <select id="languageSelect" aria-label="Choose language">
+        <option value="en">English</option><option value="hi">हिन्दी</option><option value="kn">ಕನ್ನಡ</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span>●</span> THINK BEFORE YOU CLICK</div>
+        <h1>Your safety.<br><span>Our shared</span> responsibility.</h1>
+        <p class="hero-lead" data-i18n="heroLead">Build safer digital habits. Recognise online scams. Know where to get help.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#threats" data-i18n="explore">Explore cyber threats <b>↗</b></a>
+          <a class="btn btn-ghost" href="#help" data-i18n="getHelp">Get help now</a>
+        </div>
+        <div class="hero-trust"><span class="trust-icon">✓</span><span>Learn · Prevent · Report through official channels</span></div>
+      </div>
+      <div class="hero-art" aria-label="Digital shield illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="shield"><div class="shield-inner">✓</div></div>
+        <span class="float-chip chip-one">● Secure your OTP</span>
+        <span class="float-chip chip-two">✦ Verify every link</span>
+        <span class="float-chip chip-three">⌁ Protect your identity</span>
+      </div>
+      <div class="hero-bottom"><span>01 / DIGITAL AWARENESS</span><span>SAFE ONLINE. SAFE OFFLINE.</span></div>
+    </section>
+
+    <section class="urgent-strip">
+      <div class="urgent-icon">!</div>
+      <div><strong>Lost money in an online financial fraud?</strong><span>Act quickly. Call 1930 and report at the National Cyber Crime Reporting Portal.</span></div>
+      <a href="tel:1930" class="urgent-call">Call 1930 <span>↗</span></a>
+    </section>
+
+    <section class="section" id="threats">
+      <div class="section-heading">
+        <div><div class="eyebrow">01 / KNOW THE THREATS</div><h2>Spot the scam.<br><span>Stop the harm.</span></h2></div>
+        <p>Cybercriminals use urgency, fear and attractive offers to trick people. Learn the warning signs before you respond.</p>
+      </div>
+      <div class="threat-grid">
+        <article class="threat-card"><div class="card-icon pink">✉</div><span class="card-tag">MESSAGES & EMAIL</span><h3>Phishing</h3><p>Fake messages or websites that imitate trusted organisations to steal passwords, OTPs or banking details.</p><button class="learn-more" data-topic="phishing">Know the warning signs <b>↗</b></button></article>
+        <article class="threat-card"><div class="card-icon orange">₹</div><span class="card-tag">MONEY & PAYMENTS</span><h3>UPI / Payment Fraud</h3><p>Scammers trick people into approving collect requests, sharing PINs or scanning malicious QR codes.</p><button class="learn-more" data-topic="upi">Know the warning signs <b>↗</b></button></article>
+        <article class="threat-card"><div class="card-icon violet">◉</div><span class="card-tag">IDENTITY & PRIVACY</span><h3>Identity Theft</h3><p>Personal information is misused to impersonate you, open accounts or commit fraud in your name.</p><button class="learn-more" data-topic="identity">Know the warning signs <b>↗</b></button></article>
+        <article class="threat-card"><div class="card-icon blue">▣</div><span class="card-tag">SOCIAL PLATFORMS</span><h3>Social Media Scams</h3><p>Fake profiles, impersonation, suspicious giveaways and malicious links spread through social networks.</p><button class="learn-more" data-topic="social">Know the warning signs <b>↗</b></button></article>
+        <article class="threat-card"><div class="card-icon green">⌁</div><span class="card-tag">CALLS & IMPERSONATION</span><h3>Digital Arrest Scams</h3><p>Fraudsters pose as officials and use threats, video calls or fabricated allegations to extort money.</p><button class="learn-more" data-topic="arrest">Know the warning signs <b>↗</b></button></article>
+        <article class="threat-card"><div class="card-icon yellow">▤</div><span class="card-tag">DEVICES & DATA</span><h3>Malware & Ransomware</h3><p>Harmful software can spy on activity, steal information, lock files or disrupt your device.</p><button class="learn-more" data-topic="malware">Know the warning signs <b>↗</b></button></article>
+      </div>
+    </section>
+
+    <section class="safety-section" id="safety">
+      <div class="section">
+        <div class="section-heading">
+          <div><div class="eyebrow">02 / EVERYDAY PROTECTION</div><h2>Small habits.<br><span>Stronger safety.</span></h2></div>
+          <p>Use this practical checklist to make your everyday digital life safer.</p>
+        </div>
+        <div class="safety-layout">
+          <div class="safety-list">
+            <label class="safety-item"><input type="checkbox"><span class="checkmark"></span><span><strong>Never share OTPs, PINs or passwords</strong><small>Legitimate bank staff will not ask you to reveal these secrets.</small></span></label>
+            <label class="safety-item"><input type="checkbox"><span class="checkmark"></span><span><strong>Verify before you click</strong><small>Check the sender, spelling and actual website address.</small></span></label>
+            <label class="safety-item"><input type="checkbox"><span class="checkmark"></span><span><strong>Use strong, unique passwords</strong><small>Use a password manager and enable two-factor authentication.</small></span></label>
+            <label class="safety-item"><input type="checkbox"><span class="checkmark"></span><span><strong>Keep devices and apps updated</strong><small>Install updates from trusted sources and review app permissions.</small></span></label>
+            <label class="safety-item"><input type="checkbox"><span class="checkmark"></span><span><strong>Think before sharing personal details</strong><small>Limit public sharing of phone numbers, addresses and travel plans.</small></span></label>
+            <label class="safety-item"><input type="checkbox"><span class="checkmark"></span><span><strong>Pause when someone creates urgency</strong><small>End suspicious calls and independently contact the organisation.</small></span></label>
+            <div class="check-progress"><span id="checkProgress">0 of 6 completed</span><div class="progress-track"><i id="progressBar"></i></div></div>
+          </div>
+          <aside class="safety-note"><div class="note-symbol">✳</div><span class="eyebrow">REMEMBER THIS</span><h3>You do not need to act in a hurry.</h3><p>Scammers often create panic so you make a mistake. Stop, verify independently and ask someone you trust.</p><a href="#help">Know what to do if scammed ↗</a></aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quiz">
+      <div class="quiz-panel">
+        <div class="quiz-intro"><div class="eyebrow">03 / LEARN BY DOING</div><h2>Would you spot<br><span>the warning sign?</span></h2><p>Try this quick awareness check. Learn from each answer — no personal information is collected.</p><div class="quiz-stats"><span>✦ 5 questions</span><span>◷ 2 minutes</span></div></div>
+        <div class="quiz-box" id="quizBox">
+          <div class="quiz-top"><span id="questionCount">QUESTION 01 / 05</span><span id="scoreLabel">SCORE 0</span></div>
+          <div class="quiz-progress"><i id="quizProgress"></i></div>
+          <h3 id="questionText">You receive a message saying your bank account will be blocked unless you click a link and enter your OTP. What should you do?</h3>
+          <div id="answerOptions" class="answer-options"></div>
+          <div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div>
+          <button class="btn btn-primary quiz-next" id="nextQuestion" disabled>Next question →</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="help">
+      <div class="help-heading"><div class="eyebrow">04 / IF SOMETHING GOES WRONG</div><h2>Pause. Preserve.<br><span>Report promptly.</span></h2><p>If you suspect cybercrime, take calm, practical steps. Do not feel ashamed to seek help.</p></div>
+      <div class="help-grid">
+        <article class="help-card help-main"><span class="help-number">01</span><div class="help-icon">☎</div><h3>Financial cyber fraud?</h3><p>Call the national cyber financial fraud helpline as soon as possible. Also submit a report through the official portal.</p><a class="btn btn-light" href="tel:1930">Call 1930 ↗</a></article>
+        <article class="help-card"><span class="help-number">02</span><div class="help-icon">⌕</div><h3>Report online</h3><p>Use the Government of India's National Cyber Crime Reporting Portal to submit a cybercrime complaint.</p><a href="https://cybercrime.gov.in/" target="_blank" rel="noopener">Open official portal ↗</a></article>
+        <article class="help-card"><span class="help-number">03</span><div class="help-icon">▣</div><h3>Preserve evidence</h3><p>Keep screenshots, messages, phone numbers, transaction IDs, dates and relevant emails. Do not delete evidence.</p><a href="#evidence">View evidence checklist ↗</a></article>
+        <article class="help-card"><span class="help-number">04</span><div class="help-icon">⌂</div><h3>Need immediate help?</h3><p>For emergencies or crimes requiring immediate police assistance, contact the national police helpline.</p><a href="tel:112">Call 112 ↗</a></article>
+      </div>
+      <div class="evidence-panel" id="evidence"><div><div class="eyebrow">BEFORE YOU REPORT</div><h3>Keep these details ready</h3><p>Share information only through official reporting channels or directly with authorised police personnel.</p></div><ul><li>✓ Date and approximate time of incident</li><li>✓ Transaction ID / UTR, if applicable</li><li>✓ Screenshots and original messages</li><li>✓ Phone numbers, email IDs or website links involved</li><li>✓ Bank / payment provider details, if relevant</li></ul></div>
+      <p class="disclaimer">This website provides general awareness information. It is not an official complaint filing system and does not replace police assistance, legal advice or the instructions on official government portals. Do not submit sensitive personal or financial information on this demonstration website.</p>
+    </section>
+
+    <section class="campaign-section">
+      <div class="section campaign-inner"><div><div class="eyebrow">05 / BUILD A SAFER COMMUNITY</div><h2>Awareness is<br><span>everyone's first defence.</span></h2><p>Share these safety practices with family members, friends, students and older adults. A conversation today can prevent a scam tomorrow.</p><a href="#safety" class="btn btn-primary">Explore safety checklist ↗</a></div><div class="campaign-visual"><div class="campaign-ring">CYBER<br><b>SMART</b><small>COMMUNITY</small></div><span class="spark spark-a">✦</span><span class="spark spark-b">✳</span></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top"><a class="brand footer-brand" href="#home"><span class="brand-mark">盾</span><span><strong>CYBER <em>SAKSHAM</em></strong><small>Digital Safety & Awareness</small></span></a><p>Stay alert. Stay informed. Stay safe online.</p></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Cyber Saksham · Public awareness prototype</span><div><a href="#home">Back to top ↑</a><a href="https://cybercrime.gov.in/" target="_blank" rel="noopener">Official cybercrime portal ↗</a></div></div>
+    <p class="footer-note">Not an official police or government website. Publish with a police station's name, emblem, address or contact details only after written approval and verification.</p>
+  </footer>
+
+  <dialog id="topicDialog" class="topic-dialog"><button class="dialog-close" id="dialogClose" aria-label="Close">×</button><span class="eyebrow">CYBER AWARENESS GUIDE</span><h2 id="dialogTitle"></h2><p id="dialogBody"></p><h3>What you can do</h3><ul id="dialogTips"></ul></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
