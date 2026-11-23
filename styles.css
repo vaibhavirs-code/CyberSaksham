@@ -36,3 +36,184 @@
 .police-prototype-note{background:#fff7df;color:#775414;text-align:center;padding:7px 12px;font-size:9px;font-weight:800;letter-spacing:.06em;border-bottom:1px solid #f1dfae}
 @media(max-width:900px){.police-masthead{padding:16px 5%;gap:16px}.police-mark{width:70px;height:70px;min-width:70px}.police-quicklinks>a{padding:9px 11px}}
 @media(max-width:650px){.police-masthead{padding:16px 6%;align-items:flex-start;flex-direction:column;gap:14px}.police-identity{gap:13px}.police-mark{width:62px;height:62px;min-width:62px;padding:5px}.police-title-wrap strong{font-size:18px}.police-title-wrap small{font-size:9px;letter-spacing:.08em}.police-title-wrap em{font-size:8px}.police-quicklinks{width:100%;display:grid;grid-template-columns:1fr 1fr}.police-quicklinks>a{min-height:65px}.police-quicklinks .cyber-hotline{grid-column:1/-1;flex-direction:row;justify-content:space-between}.police-quicklinks .cyber-hotline strong{font-size:25px}.police-prototype-note{font-size:8px;line-height:1.5;padding:7px 9px}}
+
+
+/* CYBER SAKSHAM VISUAL REFRESH — larger, clearer type and richer graphics */
+:root{--blue:#1769e8;--cyan:#54d4e5}
+body{font-size:16px}
+.notice{font-size:13px;padding:12px 16px}
+.police-masthead{min-height:148px;padding:22px clamp(22px,6vw,100px);gap:24px}
+.police-mark{width:100px;height:100px;min-width:100px}
+.police-title-wrap strong{font-size:clamp(22px,2.5vw,34px);letter-spacing:.035em}
+.police-title-wrap small{font-size:13px}
+.police-title-wrap em{font-size:11px;padding:7px 12px}
+.police-quicklinks>a{font-size:13px;min-height:76px;padding:13px 18px}
+.police-quicklinks .cyber-hotline{min-width:190px}
+.police-quicklinks .cyber-hotline span,.police-emergency span{font-size:10px}
+.police-quicklinks .cyber-hotline strong{font-size:36px}
+.police-quicklinks .police-emergency strong{font-size:30px}
+.police-prototype-note{font-size:11px;padding:10px 14px}
+.site-header{height:88px}
+.brand-mark{width:50px;height:50px;font-size:27px}
+.brand strong{font-size:18px}
+.brand small{font-size:12px}
+nav{gap:30px}
+nav a{font-size:14px}
+nav select{font-size:14px;padding:11px}
+.hero{min-height:650px;padding-top:105px;padding-bottom:85px}
+.hero-copy{max-width:650px}
+.hero h1{font-size:clamp(52px,6.2vw,82px);line-height:1.06}
+.hero-lead{font-size:20px;line-height:1.75;max-width:550px}
+.hero .eyebrow,.eyebrow{font-size:13px;letter-spacing:.15em}
+.btn{font-size:15px;padding:17px 23px;border-radius:11px}
+.hero-trust{font-size:14px}
+.hero-art{width:440px;height:440px}
+.orbit-one{width:340px;height:340px}
+.orbit-two{width:440px;height:440px}
+.shield{transform:scale(1.12)}
+.float-chip{font-size:13px;padding:14px 17px;border-radius:12px}
+.hero-bottom{font-size:11px}
+.urgent-strip{padding:25px 9%;gap:22px}
+.urgent-icon{width:48px;height:48px;font-size:27px}
+.urgent-strip strong{font-size:18px}
+.urgent-strip span{font-size:14px}
+.urgent-call{font-size:15px;padding:15px 21px}
+.section{padding:112px 9%}
+.section-heading{margin-bottom:52px}
+.section h2,.help-heading h2,.campaign-inner h2{font-size:clamp(44px,4.5vw,60px)}
+.section-heading>p,.help-heading p{font-size:16px;line-height:1.85;max-width:430px}
+.threat-grid{gap:20px}
+.threat-card{padding:30px 28px;min-height:290px;border-radius:19px;box-shadow:0 8px 25px #17385c0a}
+.threat-card:nth-child(1){background:linear-gradient(145deg,#fff 55%,#fff0f4)}
+.threat-card:nth-child(2){background:linear-gradient(145deg,#fff 55%,#fff4e8)}
+.threat-card:nth-child(3){background:linear-gradient(145deg,#fff 55%,#f3efff)}
+.threat-card:nth-child(4){background:linear-gradient(145deg,#fff 55%,#edf4ff)}
+.threat-card:nth-child(5){background:linear-gradient(145deg,#fff 55%,#eaf9f3)}
+.threat-card:nth-child(6){background:linear-gradient(145deg,#fff 55%,#fff9e7)}
+.card-icon{width:54px;height:54px;font-size:25px;border-radius:16px;margin-bottom:24px}
+.card-tag{font-size:11px}
+.threat-card h3{font-size:22px;margin:12px 0}
+.threat-card p{font-size:14px;line-height:1.8;min-height:76px}
+.learn-more{font-size:14px}
+.safety-list{padding:18px 30px;border-radius:19px}
+.safety-item{gap:17px;padding:21px 0}
+.checkmark{width:24px;height:24px}
+.safety-item strong{font-size:16px}
+.safety-item small{font-size:13px;line-height:1.65}
+.check-progress{font-size:13px}
+.safety-note{padding:40px;border-radius:19px}
+.safety-note h3{font-size:31px}
+.safety-note p{font-size:15px;line-height:1.85}
+.safety-note a{font-size:14px}
+.quiz-panel{padding:52px;border-radius:24px;gap:55px}
+.quiz-intro h2{font-size:clamp(40px,4vw,54px)}
+.quiz-intro p{font-size:15px;line-height:1.85;max-width:360px}
+.quiz-stats{font-size:13px}
+.quiz-box{padding:34px;border-radius:19px}
+.quiz-top{font-size:12px}
+.quiz-box h3{font-size:20px;line-height:1.6}
+.answer-option{font-size:15px;padding:15px;border-radius:11px}
+.quiz-feedback{font-size:14px}
+.help-grid{gap:17px}
+.help-card{padding:28px 24px;min-height:310px;border-radius:18px}
+.help-card h3{font-size:20px}
+.help-card p{font-size:14px;line-height:1.8;min-height:94px}
+.help-card>a:not(.btn){font-size:13px}
+.help-number{font-size:12px}
+.help-icon{width:52px;height:52px;font-size:24px}
+.evidence-panel{padding:36px;border-radius:18px}
+.evidence-panel h3{font-size:26px}
+.evidence-panel p,.evidence-panel li{font-size:13px;line-height:1.8}
+.disclaimer{font-size:12px;line-height:1.8}
+.campaign-inner{padding-top:95px;padding-bottom:95px}
+.campaign-inner h2{font-size:clamp(42px,4.4vw,58px)}
+.campaign-inner p{font-size:15px;line-height:1.9}
+.campaign-ring{width:270px;height:270px;font-size:26px}
+.campaign-ring b{font-size:36px}
+.campaign-ring small{font-size:11px}
+.footer-police-links{font-size:13px}
+.footer-police-links a{font-size:13px}
+.footer-top>p{font-size:14px}
+.footer-bottom{font-size:12px}
+.footer-note{font-size:11px}
+.topic-dialog{max-width:560px;padding:40px}
+.topic-dialog h2{font-size:34px}
+.topic-dialog p,.topic-dialog li{font-size:15px;line-height:1.8}
+.topic-dialog h3{font-size:18px}
+@media(max-width:900px){
+ .police-masthead{padding:18px 5%;min-height:130px}
+ .police-mark{width:78px;height:78px;min-width:78px}
+ .police-title-wrap strong{font-size:22px}
+ .police-quicklinks>a{font-size:11px;padding:10px}
+ .police-quicklinks .cyber-hotline strong{font-size:30px}
+ .hero-art{opacity:.45;right:0}
+ .hero h1{font-size:58px}
+ .threat-card h3{font-size:20px}
+ .threat-card p{font-size:13px}
+}
+@media(max-width:650px){
+ .notice{font-size:10px;line-height:1.5}
+ .police-masthead{padding:17px 6%;gap:14px}
+ .police-mark{width:66px;height:66px;min-width:66px}
+ .police-title-wrap strong{font-size:18px;line-height:1.25}
+ .police-title-wrap small{font-size:9px;letter-spacing:.06em}
+ .police-title-wrap em{font-size:8px}
+ .police-quicklinks{gap:9px}
+ .police-quicklinks>a{font-size:10px;min-height:64px;padding:9px}
+ .police-quicklinks .cyber-hotline strong{font-size:27px}
+ .police-prototype-note{font-size:9px}
+ .site-header{height:72px}
+ .brand-mark{width:43px;height:43px}
+ .brand strong{font-size:15px}
+ .brand small{font-size:10px}
+ .hero{min-height:650px;padding:58px 7% 72px}
+ .hero h1{font-size:clamp(43px,11vw,56px);line-height:1.08}
+ .hero-lead{font-size:16px;line-height:1.7}
+ .hero .eyebrow,.eyebrow{font-size:11px}
+ .btn{font-size:13px;padding:14px 17px}
+ .hero-trust{font-size:11px;margin-top:25px}
+ .hero-art{opacity:.23;bottom:0;right:-45px}
+ .urgent-strip{padding:17px 6%;gap:10px}
+ .urgent-strip strong{font-size:14px}
+ .urgent-strip span{font-size:11px}
+ .urgent-call{font-size:12px;padding:11px}
+ .section{padding:72px 6%}
+ .section h2,.help-heading h2{font-size:40px}
+ .section-heading>p,.help-heading p{font-size:14px}
+ .threat-grid{grid-template-columns:1fr;gap:13px}
+ .threat-card{padding:24px;min-height:0}
+ .threat-card h3{font-size:20px}
+ .threat-card p{font-size:14px;min-height:0}
+ .learn-more{font-size:13px}
+ .safety-item strong{font-size:14px}
+ .safety-item small{font-size:12px}
+ .safety-note h3{font-size:27px}
+ .safety-note p{font-size:14px}
+ .quiz-panel{padding:24px 16px;gap:24px}
+ .quiz-intro h2{font-size:36px}
+ .quiz-intro p{font-size:14px}
+ .quiz-box{padding:21px}
+ .quiz-box h3{font-size:17px}
+ .answer-option{font-size:13px}
+ .help-grid{grid-template-columns:1fr 1fr;gap:10px}
+ .help-card{padding:18px 14px;min-height:270px}
+ .help-card h3{font-size:16px}
+ .help-card p{font-size:12px;min-height:115px}
+ .help-card>a:not(.btn){font-size:11px}
+ .evidence-panel{padding:23px 18px}
+ .evidence-panel h3{font-size:22px}
+ .evidence-panel p,.evidence-panel li{font-size:12px}
+ .campaign-inner{padding-top:65px;padding-bottom:55px}
+ .campaign-inner h2{font-size:37px}
+ .campaign-inner p{font-size:14px}
+ .campaign-ring{width:225px;height:225px;font-size:22px}
+ .campaign-ring b{font-size:30px}
+ .footer-police-links{font-size:11px}
+ .footer-police-links a{font-size:11px}
+ .footer-top>p{font-size:12px}
+ .footer-bottom{font-size:10px}
+ .footer-note{font-size:10px}
+ .topic-dialog{padding:26px}
+ .topic-dialog h2{font-size:27px}
+ .topic-dialog p,.topic-dialog li{font-size:13px}
+}
