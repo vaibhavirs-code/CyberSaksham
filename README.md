@@ -31,3 +31,13 @@ No build step, backend, database, API key or paid service is required.
 - `index.html` — page structure and content
 - `styles.css` — responsive visual design
 - `script.js` — interactive cards, checklist, quiz and language selector
+
+
+## Bantwal police information displayed
+- Unit label: Bantwal Sub-Division Police, Dakshina Kannada District.
+- District police website: https://dkpolice.karnataka.gov.in/
+- Karnataka State Police website: https://ksp.karnataka.gov.in/
+- Cyber financial fraud helpline: 1930.
+- Police emergency number: 112.
+
+The masthead currently uses a simple "KSP" text mark, not an official police emblem. Replace it only with an official logo supplied or approved in writing by the police department. Obtain written approval before presenting this project as an official police website or campaign.
